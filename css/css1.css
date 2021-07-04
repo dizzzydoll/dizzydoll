@@ -1,0 +1,66 @@
+body {
+    font-color: red ;
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+
+
+}
+
+
+li {
+    margin-top: 20px;
+    margin-right: 100px;
+    float: right;
+    display: inline;
+
+
+
+}
+ li:hover {
+    background-image: url('img/ikon.png');
+    border-radius: 50px;
+ }
+
+a  {
+
+    
+
+    display: block;
+    font-family: 'Mali', cursive;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20pt;
+
+}
+
+
+
+body {
+
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+}
+
+
+.bacaan {
+    display: block;
+    font-family: 'Mali', cursive;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: bolder;
+    float: right;
+    margin-right: 80px;
+    font-size: 18pt;
+    font-color: red;
+}
+
+h1 {
+    font-size: 40pt;
+}
+
