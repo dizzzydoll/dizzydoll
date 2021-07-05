@@ -1,5 +1,5 @@
 body {
-    font-color: red ;
+    font-color: #cc0000 ;
 }
 ul {
   list-style-type: none;
@@ -8,20 +8,21 @@ ul {
 
 }
 
+head{
+    font-color: #cc0000;
+    font-weight: bolder;
+}
+
 
 li {
     margin-top: 20px;
-    margin-right: 100px;
+    margin-right: 500px;
     float: right;
     display: inline;
 
 
 
 }
- li:hover {
-    background-image: url('img/ikon.png');
-    border-radius: 50px;
- }
 
 a  {
 
@@ -57,10 +58,48 @@ body {
     float: right;
     margin-right: 80px;
     font-size: 18pt;
-    font-color: red;
+    color: #cc0000;
 }
 
 h1 {
     font-size: 40pt;
+    color: #cc0000;
+    font-style: medium;
+}
+
+
+
+ul { 
+  list-style: none; 
+  display: table;
+
+  text-align: center;
+}
+
+
+a {
+  color: #cc0000;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 15pt;
+  display: inline-block;
+
+  position: relative;
+}
+a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #cc0000;    
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a:hover:after { 
+  width: 100%; 
+  left: 0; 
 }
 
